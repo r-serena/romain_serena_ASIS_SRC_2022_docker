@@ -1,0 +1,7 @@
+version: '3'
+service:
+    db:
+        image: alpine
+        volume:
+        - C:\Users\Romain\Documents\Docker\projet
+        restart: always
